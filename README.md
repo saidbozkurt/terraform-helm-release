@@ -1,6 +1,6 @@
 # Usage
 ### Plase add the following code
-'''
+```
 
 module "app" {
 
@@ -12,5 +12,5 @@ module "app" {
   values = []
 }
 
-'''
+```
 

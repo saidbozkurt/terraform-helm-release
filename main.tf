@@ -1,7 +1,3 @@
-# Usage
-### Plase add the following code
-'''
-
 module "app" {
 
   source    = "./module"
@@ -22,6 +18,3 @@ image:
   EOF
   ]
 }
-
-'''
-

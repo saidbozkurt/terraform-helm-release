@@ -1,6 +1,8 @@
 resource "helm_release" "wordpress" {
-  name       = "wordpress"
+  namespace = var.namespace
+  name       = var.name
+  chart      = var.chart
+  wait = var.wait
+  values = var.values
 
-  chart      = "../application"
-  wait = false 
 }

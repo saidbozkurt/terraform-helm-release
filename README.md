@@ -1,9 +1,7 @@
 # Usage
-### Plase add the following code
+### Please add the following code 
 ```
-
 module "app" {
-
   source    = "saidbozkurt/release/helm"
   namespace = "default"
   name      = "wordpress"
@@ -11,6 +9,7 @@ module "app" {
   chart     = "./application"
   values = []
 }
-
 ```
+
+
 
